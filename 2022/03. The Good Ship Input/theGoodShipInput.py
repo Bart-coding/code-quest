@@ -7,8 +7,8 @@ def theGoodShipInput(input: str) -> str:
         X, Y = inputList[nameSetStartIndex].split(" ")
         X = int(X)
         Y = int(Y)
-        XList = inputList[nameSetStartIndex+1 : nameSetStartIndex+X+1]
-        YList = inputList[nameSetStartIndex+X+1 : nameSetStartIndex+X+1+Y]
+        XList = inputList[nameSetStartIndex + 1 : nameSetStartIndex + X+1]
+        YList = inputList[nameSetStartIndex + X+1 : nameSetStartIndex + X+1+Y]
         outputNamesList = []
         for name in XList:
             if name not in YList:
