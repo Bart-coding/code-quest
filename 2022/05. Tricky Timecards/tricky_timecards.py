@@ -33,4 +33,4 @@ def tricky_timecards(input: str) -> str:
         output += '\n'
     return output[:-1]
 
-print(tricky_timecards("3\nPeter Gibbons,01:23,04:16,00:59,02:23,00:00\nMilton Waddams,08:00,08:00,08:00,08:00,08:00\nBill Lumbergh,08:31,07:59,06:01,08:55,05:30"))  
+print(tricky_timecards("4\nPeter Gibbons,00:03,00:16,00:19,00:13,00:00\nMilton Waddams,08:00,08:00,08:00,08:00,08:00\nBill Lumbergh,08:31,07:59,06:01,08:55,05:30\nTom Wilson,01:00,00:01,00:00,00:00,00:00"))  
