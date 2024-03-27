@@ -2,8 +2,8 @@
 * first line containing number of test cases
 * each test case line contains 7 positive numbers:
 - the rover's wheel diameter (cm)
-- number of motor revolutions to make a full rotation of the wheel (watts)
-- amount of power to make a full revolution of the motor
+- number of motor revolutions to make a full rotation of the wheel
+- amount of power to make a full revolution of the motor (watts)
 - speed of the motor (RPM)
 - available capacity of the power system (ampere hours)
 - required voltage of the motor
